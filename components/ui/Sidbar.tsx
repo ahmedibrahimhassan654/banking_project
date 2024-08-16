@@ -48,9 +48,9 @@ const Sidbar = ({ user }: SiderbarProps) => {
             </Link>
           );
         })}
-        USER
+        <p className={cn("sidebar-label")}>USER Info</p>
       </nav>
-      USER
+      <p className={cn("sidebar-label")}>USER Info</p>
     </section>
   );
 };

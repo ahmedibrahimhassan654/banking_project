@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+
 import {
   Sheet,
   SheetClose,
@@ -9,13 +9,14 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import Image from "next/image";
-import Link from "next/link";
 import { sidebarLinks } from "@/constants";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Footer from "./Footer";
 
-const MobileNav = ({ user }: MobileNavProps) => {
+const MobileNavCopy = ({ user }: MobileNavProps) => {
   const pathname = usePathname();
 
   return (
@@ -86,7 +87,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
               </nav>
             </SheetClose>
 
-            {/* <Footer user={user} type="mobile" /> */}
+            <Footer user={user} type="mobile" />
           </div>
         </SheetContent>
       </Sheet>
@@ -94,4 +95,4 @@ const MobileNav = ({ user }: MobileNavProps) => {
   );
 };
 
-export default MobileNav;
+export default MobileNavCopy;
