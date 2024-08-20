@@ -82,10 +82,14 @@ const MobileNav = ({ user }: MobileNavProps) => {
                     </SheetClose>
                   );
                 })}
-                USER
+                <p className={cn("text-16 font-semibold text-black-2")}>
+                  USER Info
+                </p>
               </nav>
             </SheetClose>
-
+            <p className={cn("text-16 font-semibold text-black-2")}>
+              Footer Info
+            </p>
             {/* <Footer user={user} type="mobile" /> */}
           </div>
         </SheetContent>
