@@ -2,7 +2,7 @@ import { formatAmount } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Copy from "./Copy";
+// import Copy from "./Copy";
 
 const BankCardCopy = ({
   account,
@@ -55,7 +55,7 @@ const BankCardCopy = ({
         />
       </Link>
 
-      {showBalance && <Copy title={account?.sharaebleId} />}
+      {/* {showBalance && <Copy title={account?.sharaebleId} />} */}
     </div>
   );
 };
