@@ -37,8 +37,8 @@ declare type User = {
   city: string;
   state: string;
   postalCode: string;
-  dateOfBirth: string;
-  ssn: string;
+  dateOfBirth?: string; // Add this if necessary
+  ssn?: string;
 };
 
 declare type NewUserParams = {
