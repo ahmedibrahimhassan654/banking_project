@@ -52,7 +52,7 @@ const Sidbar = ({ user }: SiderbarProps) => {
         })}
         <p className={cn("sidebar-label")}>USER Info</p>
       </nav>
-      <p className={cn("sidebar-label")}>USER Info</p>
+      {/* <p className={cn("sidebar-label")}>USER Info</p> */}
     </section>
   );
 };

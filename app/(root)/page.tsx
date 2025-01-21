@@ -73,6 +73,25 @@ const banks: BankAndAccount[] = [
     subtype: "personal",
     appwriteItemId: "appwriteId1",
   },
+  {
+    $id: "1",
+    accountId: "acc123",
+    bankId: "bank123",
+    accessToken: "token123",
+    fundingSourceUrl: "url123",
+    userId: "userId1",
+    sharableId: "sharableId1",
+    name: "Bank A",
+    currentBalance: 5000,
+    mask: "1234",
+    id: "id1",
+    availableBalance: 4000,
+    officialName: "Bank A Official",
+    institutionId: "inst123",
+    type: "checking",
+    subtype: "personal",
+    appwriteItemId: "appwriteId1",
+  },
 ];
 
 const Home = () => {
